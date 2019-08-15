@@ -294,10 +294,15 @@ Parabéns, você agora tem um repositório GitHub!
 
 No tutorial de hoje você aprendeu:
 
+
 Comandos gerais do Git (commit,push,init, add);
+
 Conceitos gerais da ferramenta;
+
 Repositórios do github;
+
 Criação e manipulação de arquivos através do git.
+
 
 Muito obrigado pela atenção!
 
@@ -305,7 +310,7 @@ Muito obrigado pela atenção!
 
 Fico a disposição pessoalmente ou pelo e-mail brunomanarin@icloud.com para sanar qualquer dúvida.
 
-Creio que podem existir bugs na versão do windows (GitBash), sugiro que comecem a usar o ubuntu o mais rápido o possível! (Não é tão difícil!). Caso ocorra, tente digitar o comando ao invés de copiar/colar na tela do GitBash ou usar a própria prompt de comando do Windows.
+Creio que podem existir bugs na versão do windows (GitBash), sugiro que comecem a usar o Linux! (Não é tão difícil!). Caso ocorra, tente digitar o comando ao invés de copiar/colar na tela do GitBash ou usar a própria prompt de comando do Windows.
 
 ## Links interessantes:
 

@@ -1,12 +1,14 @@
 # Tutorial de Git/GitHub pós Pixel Init
-## Hoje você irá iniciar seu primeiro repositório no GitHub!
 
-###Sobre:
+
+##Sobre:
+
+Hoje você irá iniciar seu primeiro repositório no GitHub!
 
 Bom, então você viu minha palestra sobre Git e ficou interessado? Legal! Aqui vou explicar de forma mais detalhada e prática como funciona essa ferramenta maravilhosa.
 Como primeiro exercício vamos iniciar seu primeiro repositório(projeto)!
 
-###Primeiros passos:
+##Primeiros passos:
 
 Inicialmente começaramos fazendo sua conta GitHub. É muito simples! 
 

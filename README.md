@@ -310,8 +310,12 @@ Creio que podem existir bugs na versão do windows (GitBash), sugiro que comecem
 ## Links interessantes:
 
 [FreeCodeCamp - Git](https://guide.freecodecamp.org/git/) -> Contém várias informações interessantes sobre a ferramenta.
+
 [Guia de Sintaxe para escrever READMEs](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
-[Básicos do GitBash](https://www.youtube.com/watch?v=oQc-2gsjgDg) -> Útil também para aprender alguns comandos do terminal Linux
+
+[Básicos do GitBash](https://www.youtube.com/watch?v=oQc-2gsjgDg) -> Útil também para aprender alguns comandos do terminal 
+Linux
+
 [Git e GitHub em 30 minutos](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
 
 

@@ -59,19 +59,12 @@ Finalmente, verifique se o git foi instalado corretamente:
 
 #### Windows:
 
-Siga o link para o [instalador do Git no Windows](https://gitforwindows.org/)
+Siga o link para o [instalador do Git no Windows](https://gitforwindows.org/). Utilize todas as configurações padrão.
 
 Assim que a instalação terminar, abra o aplicativo *GitBash* e verifique se o git foi instalado corretamente:
 
 `$ git --version`
 
-#### MAC-OS:
-
-Siga o link para o [instalador do Git no mac](https://sourceforge.net/projects/git-osx-installer/files/)
-
-Assim que a instalação terminar, abra o terminal e verifique se o git foi instalado corretamente:
-
-`$ git --version`
 
 ### Configurações globais:
 
@@ -193,6 +186,108 @@ Seu resultado deve ser esse:
 
 
 Parabéns! Você iniciou seu primeiro repositório GitHub!
+
+### Windows:
+
+Abra e pasta e clique com o botão direito dentro, em seguida acesse a opção "Git Bash here".
+
+![git-open-terminal-windows](https://raw.githubusercontent.com/brunomanarin/yourfirstgihubrepo/master/img/git-windows-bash-here.jpg)
+
+Assim que o GitBash abrir digite:
+
+`$ git init`
+
+Este comando serve para iniciar um repositório em seu computador. Toda vez que você criar um novo projeto irá utilizá-lo. 
+
+![git-terminal-windows](https://raw.githubusercontent.com/brunomanarin/yourfirstgihubrepo/master/img/git-windows-init.png)
+
+Abra agora seu editor de texto preferido (pode ser o bloco de notas) e copie o seguinte padrão:
+
+```
+# Olá, meu nome é {seu nome aqui}
+## Este é meu primeiro repositório.
+
+### Eu entrei no curso de {seu curso aqui} pois:
+{motivo aqui}
+### Minhas atividades preferidas são:
+{atividades aqui}
+
+```
+
+Após substituir as lacunas, salve o arquivo na pasta "Primeiro repo" com o nome de README.md.
+**Não esqueça de mudar a opção de "Arquivo de texto" para "Todos arquivos" quando for salvar!**
+
+
+
+Volte ao terminal e digite:
+
+`$git status`
+
+O comando status mostra como está o git no momento, ou seja, mostrará que arquivos fazem parte do projeto e quais não.
+
+Você vai ver que o arquivo README.md foi encontrado e vai estar destacado em vermelho:
+
+![git-red](https://raw.githubusercontent.com/brunomanarin/yourfirstgihubrepo/master/img/git-red.png)
+
+Isso significa que ele foi encontrado na pasta, porém ainda não faz parte do nosso projeto.
+
+Utilize o comando:
+
+
+`$ git add README.md`
+
+
+Para adicionar o arquivo ao projeto e na fila para o primeiro commit.
+
+
+*Toda vez que você for adicionar um arquivo, você deve utilizar o comando add seguido do nome dele*
+
+`$ git add [NOME DO ARQUIVO AQUI]`
+
+*Você pode também adicionar a pasta inteira usando um "."*
+
+`$ git add .`
+
+*Isso permite que todos os arquivos daquela pasta sejam adicionados ao projeto atual.*
+
+Digite agora o comando status de novo para checar se tudo deu certo:
+
+`$git status`
+
+Agora o README.md deve estar verde.
+
+![git-green](https://raw.githubusercontent.com/brunomanarin/yourfirstgihubrepo/master/img/git-green.png)
+
+Finalmente vamos ao nosso primeiro Commit!
+
+`$ git commit -m "Meu primeiro Commit"`
+
+O comando commit serve como uma espécie de confirmação, ele afirma que aquele(s) arquivo(s) estão prontos para o repositório. É importante ressaltar que a parte do -m (message) é muito importante! Ela indica o que é o commit e é obrigatória.
+
+Agora que temos tudo preparado, vamos mandar para o GitHub!
+
+![github-first-repo](https://raw.githubusercontent.com/brunomanarin/yourfirstgihubrepo/master/img/github-setup-repo.png)
+
+Lembra dessa tela aqui? Pois é! Copie o link disponível na caixa de texto e cole o no seu console:
+
+`$ git remote add origin [LINK AQUI]`
+
+Esse comando linkará o Git (Sua máquina local) ao GitHub (Situado na internet) e possibilitará a transferência de arquivos entre os dois!
+
+Último passo é só dar o push no arquivo:
+
+`$ git push -u origin master`
+
+Push (Empurrar em português) é um comando usado para mandar as modificações locais para o repositório on-line. Os outros parâmetros que seguem indicam que é a primeira vez que o repositório está sendo iniciado. Nas seguintes vezes que você for usar o comando nesse repositório, utilize apenas:
+
+`$ git push`
+
+Já que o repositório já se encontra configurado.
+
+Seu resultado deve ser esse:
+
+![github-finished](https://raw.githubusercontent.com/brunomanarin/yourfirstgihubrepo/master/img/github-finished.png)
+
 
 
 
